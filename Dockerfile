@@ -1,4 +1,4 @@
-FROM rinoraju/sbt-build-img:v1
+FROM rinoraju/sbt-build-node:v1
 CMD mkdir -p /app
 COPY . /app
 WORKDIR /app
