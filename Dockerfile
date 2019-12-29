@@ -1,5 +1,5 @@
 FROM rinoraju/sbt-build-node:v1
-CMD mkdir -p /app
+RUN mkdir -p /app
 COPY . /app/
 ENV PROJECT_HOME /app/tmp/play-java-starter-example-1.0-SNAPSHOT
 
