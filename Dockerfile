@@ -7,7 +7,7 @@ COPY ./application.conf $PROJECT_HOME/
 
 WORKDIR $PROJECT_HOME
 
-ENV PATH $PROJECT_HOME/play-java-starter-example-1.0-SNAPSHOT/bin:&PATH
-
 EXPOSE 9000 9000
+
+CMD ["./play-java-starter-example","-Dplay.http.secret.key='Rk]JB9RRMjTatS1<VTD9OXuOv?OjmXP9USOzV8oD`182d[96ZOC9^OWGL/hEhocP'\"]
 
