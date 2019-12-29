@@ -9,5 +9,5 @@ WORKDIR $PROJECT_HOME
 
 EXPOSE 9000 9000
 
-CMD ["./play-java-starter-example","-Dplay.http.secret.key='Rk]JB9RRMjTatS1<VTD9OXuOv?OjmXP9USOzV8oD`182d[96ZOC9^OWGL/hEhocP'\"]
+CMD ["./play-java-starter-example","-Dplay.http.secret.key=Rk]JB9RRMjTatS1<VTD9OXuOv?OjmXP9USOzV8oD`182d[96ZOC9^OWGL/hEhocP"]
 
